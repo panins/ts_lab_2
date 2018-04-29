@@ -28,8 +28,6 @@ init = tf.global_variables_initializer()
 sess.run(init)
 
 
-
-
 my_opt = tf.train.GradientDescentOptimizer(learning_rate)
 train_step = my_opt.minimize(loss)
 
